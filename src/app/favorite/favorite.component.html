@@ -1,0 +1,9 @@
+<i 
+class="glyphicon glyphicon-heart"
+[ngClass]="{
+    'on': isSelected,
+    'off': !isSelected
+}"
+(click)="onClick()"
+></i>
+<span>{{ count }}</span>

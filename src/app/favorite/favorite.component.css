@@ -1,0 +1,11 @@
+.on {
+    color: deeppink;
+}
+
+.off {
+    color: #999;
+}
+
+.glyphicon {
+    cursor: pointer;
+}
